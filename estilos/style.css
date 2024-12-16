@@ -28,7 +28,7 @@ main {
     position: relative;
 }
 
-section#login {
+section {
     background-color: var(--cor4);
     height: 500px;
     width: 250px;
@@ -39,9 +39,12 @@ section#login {
     left: 50%; 
     transform: translate(-50%,-50%);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-section#login > figure {
+section > figure {
     background: var(--cor1) url('../imagens/pexels-didsss-2911521.jpg') center no-repeat fixed;
     height: 200px;
     background-size: cover;

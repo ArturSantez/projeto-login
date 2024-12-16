@@ -11,7 +11,7 @@
 
 @media  screen and (min-width:768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+        background-image: linear-gradient(to right, var(--cor1), var(--cor3));
     }
 
     section {
@@ -27,6 +27,14 @@
     section > div {
         float: right;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 1.5em;
+    }
+
+    div#formulario {
+        font-size: 1em;
     }
 }
 
@@ -48,5 +56,13 @@
     section > div {
         float: right;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario {
+        font-size: 1.2em;
     }
 }

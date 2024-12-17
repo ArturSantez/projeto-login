@@ -57,11 +57,11 @@ section >div#formulario {
 
 section > div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
 }
 
-section > div#formulario {
+section > div#formulario > p {
     font-size: .8em;
+    margin: 15px 0px;
 }
 
 form > div.login {
@@ -89,11 +89,11 @@ div.login > input {
     background-color: var(--cor0);
     font-size: 1em;
     height: 100%;
-    width: calc(100% - 44px);
+    width: calc(100% - 45px);
     padding: 5px;
     border: 0px;
     border-radius: 8px;
-    transform: translateY(-6.5px);
+    transform: translateY(-12.5px);
 }
 
 div.login > input::placeholder {

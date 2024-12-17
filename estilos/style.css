@@ -31,44 +31,46 @@ main {
 
 section {
     background-color: white;
-    height: 520px;
+    height: 515px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.541);
     position: absolute;
     top: 50%;
     left: 50%; 
-    transform: translate(-50%,-50%);
     overflow: hidden;
 
+    transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
 section > figure {
     background: var(--cor1) url('../imagens/pexels-didsss-2911521.jpg') center no-repeat fixed;
-    height: 200px;
     background-size: cover;
-
+    height: 200px;
 }
 
-div#formulario {
+section >div#formulario {
     padding: 10px;
 }
 
-div#formulario > h1 {
+section > div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#formulario {
+section > div#formulario {
     font-size: .8em;
 }
 
 form > div.login {
     background-color: var(--cor2);
+    display: block;
     height: 40px;
-    border-radius: 5px;
+    width: 100%;
+    border: 2px solid var(--cor2);
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
@@ -76,7 +78,33 @@ div.login > label {
     display: none;
 }
 
-figute, div#formulario {
+div.login > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.login > input {
+    background-color: var(--cor0);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 44px);
+    padding: 5px;
+    border: 0px;
+    border-radius: 8px;
+    transform: translateY(-6.5px);
+}
+
+div.login > input::placeholder {
+    padding: 10px;
+}
+
+div.login > input:focus-within {
+    background-color: white;
+}
+
+figure, div#formulario {
     display: block;
 }
 

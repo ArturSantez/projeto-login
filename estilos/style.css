@@ -68,7 +68,7 @@ form > div.login {
     height: 40px;
     width: 100%;
     border: 2px solid var(--cor2);
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 5px 0px;
 
     display: flex;
@@ -90,10 +90,10 @@ div.login > span {
 div.login > input {
     font-size: 1em;
     height: 100%;
-    width: calc(100% - 45px);
+    width: calc(100% - 40px);
     padding: 5px;
     border: 0px;
-    border-radius: 8px;
+    border-radius: 5px;
     
 }
 
